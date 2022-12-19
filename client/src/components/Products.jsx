@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Product from './Product'
 import axios from 'axios'
 
-const production  = 'https://ecommerce-website-sarthakjain.herokuapp.com/api';
+const production  = 'https://ecommerce-z4sf.onrender.com/api';
 const development = 'http://localhost:5000/api';
 const BASE_URL = (process.env.NODE_ENV ? production : development);
 
